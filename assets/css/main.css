@@ -184,7 +184,7 @@ blockquote {
 
 @media (min-width: 576px) {
     .profile {
-        width: 30%
+        width: 29%
     }
 
     .profile .address p {
@@ -330,7 +330,8 @@ blockquote {
 }
 
 .social .contact-icons {
-    font-size: 2.5rem
+    font-size: 2.5rem;
+    /* padding-top: 4rem; */
 }
 
 .social .contact-icons a i::before {
