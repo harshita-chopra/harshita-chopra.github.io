@@ -1,4 +1,4 @@
-# Harshita's [website](https://harshita.github.io/)
+# Harshita's [website](https://harshita-chopra.github.io/)
 
 Used from the al-folio template mentioned below.
 

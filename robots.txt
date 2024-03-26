@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://harshita.github.io/sitemap.xml
+Sitemap: https://harshita-chopra.github.io/sitemap.xml
