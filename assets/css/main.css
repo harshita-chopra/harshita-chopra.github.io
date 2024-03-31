@@ -325,6 +325,30 @@ blockquote {
     color: var(--global-text-color)
 }
 
+.news {
+    max-height: 250px;
+    overflow-y: hidden;
+    position: relative;
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  }
+
+  .news:hover {
+    overflow-y: auto;
+  }
+
+  .news::-webkit-scrollbar {
+    width: 0; /* Set width to 0 by default */
+  }
+
+  .news:hover::-webkit-scrollbar {
+    width: 5px; /* Set width to display scrollbar on hover */
+  }
+
+  .news::-webkit-scrollbar-thumb {
+    background-color: gray; /* Red color for scroll thumb */
+    border-radius: 5px;
+  }
+
 .social {
     text-align: center
 }
