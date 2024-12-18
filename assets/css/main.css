@@ -167,7 +167,7 @@ blockquote {
 }
 
 .profile {
-    margin-left: 2.5rem;
+    margin-left: 3.5rem;
     width: 100%
 }
 
@@ -184,7 +184,7 @@ blockquote {
 
 @media (min-width: 576px) {
     .profile {
-        width: 29%
+        width: 30%
     }
 
     .profile .address p {
