@@ -168,10 +168,10 @@
             I'm advised by Prof. <a href="https://chiragshah.org/"  target="_blank" rel="noopener noreferrer">Chirag Shah</a>. My research interests span the area of <b>AI-assisted decision making</b> and <b>ML for personalization</b>. 
           </p>
           <p>
-            Previously, I worked as a Research Associate at <a href="https://research.adobe.com/"  target="_blank" rel="noopener noreferrer">Adobe Research</a>. 
+            Before this, I worked as a Research Associate at <a href="https://research.adobe.com/"  target="_blank" rel="noopener noreferrer">Adobe Research</a>. 
             I primarily collaborated with Dr. <a href="https://research.adobe.com/person/atanu-sinha/"  target="_blank" rel="noopener noreferrer">Atanu R Sinha</a>, 
             Dr. <a href="https://research.adobe.com/person/sunav-choudhary/"  target="_blank" rel="noopener noreferrer">Sunav Choudhary</a> 
-            and other amazing researchers from the Data-driven Systems and Document Intelligence groups. 
+            and researchers from the Data-driven Systems and Document Intelligence groups. 
             In this pre-doctoral role, I focused on challenges arising from user heterogeneity, partially observed behaviors and budget-constrained maximization of reach on digital platforms.
             My projects involve working with <b>deep learning, actor-critic algorithms</b> (RL), <b>constrained optimization and natural langugage processing</b> (NLP). 
             Recently, I also worked on LLM training & inference for digital marketing tasks.
@@ -216,6 +216,24 @@
           <div class="table-responsive">
             <table class="table table-sm table-borderless">
 
+              <tr>
+                <th scope="row">Jun, 2025</th>
+                <td>
+                  Working at Microsoft Research, Redmond for the summer
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Apr, 2025</th>
+                <td>
+                  Paper accepted at ICLR 2025 Workshop on Reasoning and Planning - Singapore!
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Jan, 2025</th>
+                <td>
+                  Check out our <a href="https://arxiv.org/pdf/2501.15056" target="_blank" rel="noopener noreferrer">paper</a> on Feedback-driven Information Seeking
+                </td>
+              </tr>
               <tr>
                 <th scope="row">Sep, 2024</th>
                 <td>
@@ -271,6 +289,39 @@
         <div class="publications">
           <h2 id="pubid">Publications</h2>
           <ol class="bibliography">
+            <!-- Paper n -->
+            <li>
+              <div class="row">
+                  <div class="col-sm-2 abbr"><abbr class="badge">ICLR 2025</abbr></div>
+                  <div id="paper1" class="col-sm-8">
+                      <div class="title">Feedback-Aware Monte Carlo Tree Search for Efficient Information Seeking in Goal-Oriented Conversations</div>
+                      <div class="author"><strong>H Chopra</strong>, C Shah</div>
+                      <div class="periodical"><em>Workshop on Reasoning and Planning for LLMs at ICLR 2025 (<strong>Oral</strong>, top 6%).</em></div>
+                      <div class="links">
+                          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                          <a href="https://openreview.net/pdf?id=iIQNK2lvN3" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+                      </div>
+                      <div class="abstract hidden">
+                          <p>The ability to identify and acquire missing information is a critical component of
+                            effective decision making and problem solving. With the rise of conversational
+                            artificial intelligence (AI) systems, strategically formulating information-seeking
+                            questions becomes crucial and demands efficient methods to guide the search process. We introduce a novel approach to adaptive question-asking through a combination of Large Language Models (LLM) for generating questions that maximize
+                            information gain, Monte Carlo Tree Search (MCTS) for building and using a decision tree across multiple samples, and a hierarchical feedback mechanism to learn
+                            from past interactions. We present two key innovations: (1) an adaptive MCTS algorithm that balances exploration and exploitation for efficient search over potential questions; and (2) a clustering-based feedback algorithm that leverages prior
+                            experience to guide future interactions. Each incoming sample is assigned to a
+                            cluster based on its semantic similarity with previously observed samples. Our
+                            UCT (Upper Confidence bound for Trees) formulation selects optimal questions
+                            by combining expected rewards, a function of information gain, with a clusterspecific bonus that decays with depth, to emphasize the importance of early-stage
+                            questions that have proven effective for narrowing the solution space in similar
+                            samples. Experiments in medical diagnosis and troubleshooting domains demonstrate that our method leads to an average of 12% improvement in success rates
+                            and a 10x reduction in the average number of LLM calls made per conversation
+                            for the search process, in comparison to the state of the art.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+            </li>
+
             <!-- Paper 1 -->
             <li>
               <div class="row">
