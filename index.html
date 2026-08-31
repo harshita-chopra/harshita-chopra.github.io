@@ -299,6 +299,26 @@
             <!-- Paper n -->
             <li>
               <div class="row">
+                  <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2026</abbr></div>
+                  <div id="paper1" class="col-sm-10">
+                      <div class="title">Thinking Ahead: Prospection-Guided Retrieval of Memory with Language Models</div>
+                      <div class="author"><strong>H Chopra</strong>, K Chintalapudi, S Nath, R White, C Shah.</div>
+                      <div class="periodical"><em>Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing. EMNLP 2026 (Main Track, acceptance rate 15.4%).</em></div>
+                      <div class="links">
+                          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+                          <a href="https://arxiv.org/pdf/2605.14177" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+                      </div>
+                      <div class="abstract hidden">
+                          <p>Long-horizon personalization requires dialog assistants to retrieve user-specific facts from extended interaction histories. However, many relevant facts have low semantic similarity to the query under dense retrieval. Standard Retrieval-Augmented Generation (RAG) and GraphRAG systems remain largely retrospective: they rely on embedding similarity or fixed graph traversals, often missing relevant facts that lie far from the query in embedding space. Inspired by prospection, the human ability to use imagined futures as cues for recall, we introduce Prospection-Guided Retrieval (PGR), which decouples retrieval from memory storage. Given a user query, PGR expands the goal into a linear chain or tree of thoughts (TOT) denoting plausible next steps, and uses these steps as retrieval probes instead of the original query alone. Retrieved facts are then used to personalize the next round of prospection, enabling PGR to uncover additional memories by grounding the simulation in the user’s history. We also introduce MemoryQuest, a challenging multi-session benchmark where each query is annotated with 3–5 dated reference facts under a low query-reference similarity constraint. Across 1,625 queries spanning 185 user profiles from 3 public datasets, PGR-TOT substantially improves retrieval, achieving nearly 3x recall on MemoryQuest over baselines. In pairwise LLM-as-judge evaluations, PGR-generated responses are preferred on 89–98% of queries, with blinded human annotations showing a similar trend. Overall, the results show that explicit prospection yields large gains in long-horizon retrieval and response quality over similarity-only baselines.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+            </li>
+
+            <!-- Paper n -->
+            <li>
+              <div class="row">
                   <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS 2025</abbr></div>
                   <div id="paper1" class="col-sm-10">
                       <div class="title">Feedback-Aware Monte Carlo Tree Search for Efficient Information Seeking in Goal-Oriented Conversations.</div>
@@ -337,7 +357,7 @@
                   <div id="paper1" class="col-sm-10">
                       <div class="title">Subjective Behaviors and Preferences in LLM: Language of Browsing.</div>
                       <div class="author">S Sundaresan, <strong>H Chopra</strong>, A R Sinha, K Goswami, N S Naidu, R Karan, N Anushka.</div>
-                      <div class="periodical"><em>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. (acceptance rate 22%)</em></div>
+                      <div class="periodical"><em>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. (Main Track, acceptance rate 22%)</em> – <strong>Oral</strong></div>
                       <div class="links">
                           <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
                           <a href="https://arxiv.org/pdf/2508.15474" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
