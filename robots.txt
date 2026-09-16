@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://harshita-chopra.github.io/sitemap.xml
